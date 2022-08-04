@@ -1,0 +1,10 @@
+
+.footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.footer h6 {
+    color: rgb(9, 82, 121);
+}
