@@ -1,0 +1,33 @@
+
+
+.product {
+    background-color: white;
+    border: 1px solid #d9d8d7;
+    border-radius: 6px;
+    padding: 10px;
+    width: 290px;
+    height: 360px;
+}
+
+.product img {
+    width: 270px;  
+    height: 240px;  
+}
+
+.product .prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .prices label {
+    flex: 1;
+}
+
+.product .total {    
+    font-size: 21px;    
+}
+
+.product .price {
+    font-size: 19px;    
+}

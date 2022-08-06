@@ -5,6 +5,7 @@ const QuantityPicker = () => {
   const [quantity, setQuantity] = useState(1);
 
   const increase = () => {
+    console.log('TEST');
     let next = quantity + 1;
     setQuantity(next);
   };
@@ -18,9 +19,13 @@ const QuantityPicker = () => {
 
   return (
     <div className="qt-picker">
-      <button onClick={increase}>+</button>
+      <button className="btn btn-sm btn-info" onClick={increase}>
+        +
+      </button>
       <label>{quantity}</label>
-      <button onClick={decrease}>-</button>
+      <button className="btn btn-sm btn-info" onClick={decrease}>
+        -
+      </button>
     </div>
   );
 };
