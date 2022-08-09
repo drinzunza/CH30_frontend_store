@@ -31,3 +31,25 @@
 .product .price {
     font-size: 19px;    
 }
+
+.product .controls {
+    display: flex;
+}
+
+.product .controls .qt-picker {
+    flex: 3;
+}
+
+.product .control button {
+    flex: 2;
+    text-align: center;
+}
+
+.catalog .filters {
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+
+.catalog .filters button {
+    margin-right: 15px;
+}
